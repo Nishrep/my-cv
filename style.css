@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -97,7 +97,7 @@ a:visited {
     background: #BBBFF3;
 }
 
-.table td:nth-child(3){
+.table td:nth-child(3) {
     color: #86898f;
 }
 
@@ -114,4 +114,40 @@ a:visited {
 .btn:hover {
     opacity: .8;
     color: #928bc4;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-items {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    width: calc(60% - 20px);
+}
+
+.form-items .form-item {
+    display: inline-block;
+}
+
+.form-items .form-item:last-child {
+    margin-right: 0;
+}
+
+.form-item label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    padding: 10px 0 10px;
+    box-sizing: border-box;
+    border: none;
+    font-family: inherit;
+    background: transparent;
+    outline: none;
 }
