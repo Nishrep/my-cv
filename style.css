@@ -24,6 +24,15 @@ h1, h3 {
     margin: 15px 0 15px;
 }
 
+a {
+    color: #483D8BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #928bc4;
+}
+
 .avatar {
     border-radius: 20px;
     max-width: 150px;
