@@ -24,6 +24,10 @@ h1, h3 {
     margin: 15px 0 15px;
 }
 
+h2 {
+    margin-bottom: 15px;
+}
+
 a {
     color: #483D8BFF;
     text-decoration: none;
@@ -53,23 +57,38 @@ a:visited {
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .card-hobby {
     background-color: rgb(236, 228, 255);
 }
 
-.card-hobby ol {
-    padding: 20px;
-    line-height: 23px;
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 5px;
 }
 
 .card-work {
     background-color: rgb(228, 232, 255);
 }
 
-.card-work table {
+.table {
+    width: 100%;
     margin: 10px 0;
+}
+
+.table th {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 .btn {
