@@ -20,7 +20,8 @@ body {
     margin: auto;
 }
 
-h1, h3 {
+h1,
+h3 {
     margin: 15px 0 15px;
 }
 
@@ -84,11 +85,20 @@ a:visited {
 .table th {
     text-align: center;
     padding-bottom: 10px;
+    background: #6BC0AA;
 }
 
 .table td {
     text-align: center;
     padding-bottom: 5px;
+}
+
+.table td:hover {
+    background: #BBBFF3;
+}
+
+.table td:nth-child(3){
+    color: #86898f;
 }
 
 .btn {
